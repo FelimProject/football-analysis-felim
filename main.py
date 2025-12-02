@@ -84,7 +84,7 @@ def main() :
 
     speed_and_distance_estimator.draw_speed_and_distance(output_video_frames, tracks)
 
-    save_video(output_video_frames , 'ouput_video/output_video.avi')
+    save_video(output_video_frames , 'output_video/output_video.avi')
 
 if __name__ == "__main__":
     main()
