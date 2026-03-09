@@ -15,3 +15,22 @@ Class-wise evaluation shows that the model performs particularly well in detecti
 Detection performance for **referees** is moderate with an mAP@50 of **0.915**, while the **ball** class shows lower performance due to its small object size and fewer training instances, achieving an mAP@50 of **0.352**.
 
 Overall, the model demonstrates strong capability in detecting major football match entities such as players, goalkeepers, and referees, while further improvements may be required to enhance ball detection accuracy.
+
+## Dataset Description
+
+This project utilizes the **football players detection dataset** available on Roboflow Universe. The dataset can be accessed through the following link:
+
+Dataset Documentation:  
+https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc
+
+The dataset is designed for computer vision tasks in football match analysis and contains annotated images that enable object detection models to identify key entities during a match. The dataset includes approximately **372 annotated images** and supports multiple object detection architectures such as YOLO and RF-DETR. :contentReference[oaicite:0]{index=0}
+
+Four main object classes are annotated in the dataset:
+
+- **Player**
+- **Referee**
+- **Ball**
+
+Each image contains bounding box annotations for these objects, allowing machine learning models to learn spatial features and object characteristics. This dataset is commonly used for training object detection models to analyze football matches, including player tracking, tactical analysis, and automated broadcast analytics. :contentReference[oaicite:1]{index=1}
+
+The dataset is released under the **CC BY 4.0 license**, meaning it can be used for research and development purposes with proper attribution to the original creators. :contentReference[oaicite:2]{index=2}
