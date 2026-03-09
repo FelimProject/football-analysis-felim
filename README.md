@@ -31,6 +31,6 @@ Four main object classes are annotated in the dataset:
 - **Referee**
 - **Ball**
 
-Each image contains bounding box annotations for these objects, allowing machine learning models to learn spatial features and object characteristics. This dataset is commonly used for training object detection models to analyze football matches, including player tracking, tactical analysis, and automated broadcast analytics. :contentReference[oaicite:1]{index=1}
+Each image contains bounding box annotations for these objects, allowing machine learning models to learn spatial features and object characteristics. This dataset is commonly used for training object detection models to analyze football matches, including player tracking, tactical analysis, and automated broadcast analytics.
 
-The dataset is released under the **CC BY 4.0 license**, meaning it can be used for research and development purposes with proper attribution to the original creators. :contentReference[oaicite:2]{index=2}
+The dataset is released under the **CC BY 4.0 license**, meaning it can be used for research and development purposes with proper attribution to the original creators. 
