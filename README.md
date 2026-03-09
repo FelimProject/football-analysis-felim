@@ -23,7 +23,7 @@ This project utilizes the **football players detection dataset** available on Ro
 Dataset Documentation:  
 https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc
 
-The dataset is designed for computer vision tasks in football match analysis and contains annotated images that enable object detection models to identify key entities during a match. The dataset includes approximately **372 annotated images** and supports multiple object detection architectures such as YOLO and RF-DETR. :contentReference[oaicite:0]{index=0}
+The dataset is designed for computer vision tasks in football match analysis and contains annotated images that enable object detection models to identify key entities during a match. The dataset includes approximately **372 annotated images** and supports multiple object detection architectures such as YOLO and RF-DETR.
 
 Four main object classes are annotated in the dataset:
 
