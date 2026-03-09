@@ -14,7 +14,7 @@ Class-wise evaluation shows that the model performs particularly well in detecti
 
 Detection performance for **referees** is moderate with an mAP@50 of **0.915**, while the **ball** class shows lower performance due to its small object size and fewer training instances, achieving an mAP@50 of **0.352**.
 
-Overall, the model demonstrates strong capability in detecting major football match entities such as players, goalkeepers, and referees, while further improvements may be required to enhance ball detection accuracy.
+Overall, the model demonstrates strong capability in detecting major football match entities such as players,balls and referees, while further improvements may be required to enhance ball detection accuracy.
 
 ## Dataset Description
 
