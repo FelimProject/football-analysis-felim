@@ -14,6 +14,14 @@ Class-wise evaluation shows that the model performs particularly well in detecti
 
 Detection performance for **referees** is moderate with an mAP@50 of **0.915**, while the **ball** class shows lower performance due to its small object size and fewer training instances, achieving an mAP@50 of **0.352**.
 
+Pretrained Model
+
+The pretrained model can be accessed at the following link:
+
+https://drive.google.com/file/d/1bZmV9nCr1hLJkHB7BduRZapWNLJVOcFL/view?usp=drive_link
+
+This model can be used directly for inference or further fine-tuned for additional football analysis tasks.
+
 Overall, the model demonstrates strong capability in detecting major football match entities such as players,balls and referees, while further improvements may be required to enhance ball detection accuracy.
 
 ## Dataset Description
@@ -34,3 +42,4 @@ Four main object classes are annotated in the dataset:
 Each image contains bounding box annotations for these objects, allowing machine learning models to learn spatial features and object characteristics. This dataset is commonly used for training object detection models to analyze football matches, including player tracking, tactical analysis, and automated broadcast analytics.
 
 The dataset is released under the **CC BY 4.0 license**, meaning it can be used for research and development purposes with proper attribution to the original creators. 
+
