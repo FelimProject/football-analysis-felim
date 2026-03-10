@@ -10,10 +10,10 @@ The proposed model utilizes machine learning techniques to analyze historical ma
 
 The YOLOv11 object detection model used in this project consists of:
 
-- **Layers:** 190
-- **Parameters:** 56,831,644
-- **Computational Complexity:** ~194.4 GFLOPs
-
+- **Layers:** 357
+- **Parameters:** 56,878,396
+- **Computational Complexity:** ~195.5 GFLOPs
+- 
 The model detects four main entities in football matches: **Player, Referee, Ball, Goalkeeper**.
 
 ---
