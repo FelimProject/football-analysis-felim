@@ -13,7 +13,7 @@ The YOLOv11 object detection model used in this project consists of:
 - **Layers:** 357
 - **Parameters:** 56,878,396
 - **Computational Complexity:** ~195.5 GFLOPs
-The model detects four main entities in football matches: **Player, Referee, Ball, Goalkeeper**.
+- The model detects four main entities in football matches: **Player, Referee, Ball, Goalkeeper**.
 
 ---
 
