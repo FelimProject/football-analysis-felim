@@ -8,25 +8,30 @@ The proposed model utilizes machine learning techniques to analyze historical ma
 
 The trained object detection model was evaluated using the validation dataset to measure its detection performance across different classes. The model architecture consists of 190 layers with a total of 56,831,644 parameters and approximately 194.4 GFLOPs of computational complexity.
 
-## Overall Model Performance
+## Model Evaluation Results
 
-| Metric | Score |
-|------|------|
-| Precision | 0.893 |
-| Recall | 0.720 |
-| mAP@50 | 0.786 |
-| mAP@50-95 | 0.531 |
+The trained YOLOv11 object detection model was evaluated using the validation dataset to measure detection performance across different classes.
 
-## Class-wise Detection Performance
+### Overall Model Performance
 
-| Class | Precision | Recall | mAP@50 |
-|------|------|------|------|
-| Player | 0.943 | 0.948 | 0.981 |
-| Goalkeeper | - | - | 0.896 |
-| Referee | - | - | 0.915 |
-| Ball | - | - | 0.352 |
+| Dataset | Images | Instances | Precision | Recall | mAP@50 | mAP@50-95 |
+|--------|--------|-----------|-----------|--------|--------|-----------|
+| Validation Set | 38 | 905 | 0.893 | 0.720 | 0.786 | 0.531 |
 
-Pretrained Model
+### Class-wise Detection Performance
+
+| Class | Images | Instances | Precision | Recall | mAP@50 | mAP@50-95 |
+|------|------|------|------|------|------|------|
+| Ball | 35 | 35 | 1.000 | 0.247 | 0.352 | 0.150 |
+| Goalkeeper | 27 | 27 | 0.792 | 0.815 | 0.896 | 0.639 |
+| Player | 38 | 754 | 0.943 | 0.948 | 0.981 | 0.757 |
+| Referee | 38 | 89 | 0.838 | 0.870 | 0.915 | 0.579 |
+
+### Performance Analysis
+
+The model demonstrates strong detection capability for the **player class**, achieving the highest performance with an **mAP@50 of 0.981**, indicating highly reliable detection accuracy. The **goalkeeper** and **referee** classes also show strong results with **mAP@50 scores of 0.896 and 0.915**, respectively.
+
+However, the **ball class** exhibits lower detection performance with an **mAP@50 of 0.352** and **mAP@50-95 of 0.150**, mainly due to the **small object size**, **motion blur**, and **limited training samples** in the dataset.
 
 The pretrained model can be accessed at the following link:
 
@@ -34,7 +39,7 @@ https://drive.google.com/file/d/1bZmV9nCr1hLJkHB7BduRZapWNLJVOcFL/view?usp=drive
 
 This model can be used directly for inference or further fine-tuned for additional football analysis tasks.
 
-Overall, the model demonstrates strong capability in detecting major football match entities such as players,balls and referees, while further improvements may be required to enhance ball detection accuracy.
+Overall, the model demonstrates strong capability in detecting major football match entities such as players,balls, Goalkeeper and referees, while further improvements may be required to enhance ball detection accuracy.
 
 ## Dataset Description
 
@@ -50,6 +55,7 @@ Four main object classes are annotated in the dataset:
 - **Player**
 - **Referee**
 - **Ball**
+- **Goal keeper**
 
 Each image contains bounding box annotations for these objects, allowing machine learning models to learn spatial features and object characteristics. This dataset is commonly used for training object detection models to analyze football matches, including player tracking, tactical analysis, and automated broadcast analytics.
 
