@@ -8,11 +8,23 @@ The proposed model utilizes machine learning techniques to analyze historical ma
 
 The trained object detection model was evaluated using the validation dataset to measure its detection performance across different classes. The model architecture consists of 190 layers with a total of 56,831,644 parameters and approximately 194.4 GFLOPs of computational complexity.
 
-Overall, the model achieved strong detection performance with a precision score of **0.893**, recall of **0.720**, and a mean Average Precision (mAP@50) of **0.786**, while the stricter metric mAP@50-95 reached **0.531**.
+## Overall Model Performance
 
-Class-wise evaluation shows that the model performs particularly well in detecting **players**, achieving a precision of **0.943**, recall of **0.948**, and mAP@50 of **0.981**, indicating highly reliable detection performance. The **goalkeeper** class also shows strong results with an mAP@50 of **0.896**.
+| Metric | Score |
+|------|------|
+| Precision | 0.893 |
+| Recall | 0.720 |
+| mAP@50 | 0.786 |
+| mAP@50-95 | 0.531 |
 
-Detection performance for **referees** is moderate with an mAP@50 of **0.915**, while the **ball** class shows lower performance due to its small object size and fewer training instances, achieving an mAP@50 of **0.352**.
+## Class-wise Detection Performance
+
+| Class | Precision | Recall | mAP@50 |
+|------|------|------|------|
+| Player | 0.943 | 0.948 | 0.981 |
+| Goalkeeper | - | - | 0.896 |
+| Referee | - | - | 0.915 |
+| Ball | - | - | 0.352 |
 
 Pretrained Model
 
