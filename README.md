@@ -2,7 +2,7 @@
 
 **Football Analysis** is a data-driven project designed to extract meaningful insights from football match statistics, team performance, and historical match data. This project is ideal for data analysts, football enthusiasts, and developers who want to build analytical dashboards or predictive models for football match outcomes.
 
-The proposed model utilizes machine learning techniques to analyze historical match data and predict possible outcomes of football matches (win, loss, or draw). By learning patterns from team statistics, player performance, and match history, the model assists in football analytics and decision-making.
+The proposed model utilizes computer vision techniques to analyze player movement , player balls controlls, player velocit, player positions and ball position
 
 ---
 
