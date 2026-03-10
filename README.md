@@ -71,7 +71,7 @@ Each image contains bounding box annotations for object detection, enabling mode
 
 ## Demo Video
 
-[![Watch Demo Video](https://drive.google.com/file/d/1bZmV9nCr1hLJkHB7BduRZapWNLJVOcFL/view?usp=drive_link)
+[Watch Demo Video](https://drive.google.com/file/d/1bZmV9nCr1hLJkHB7BduRZapWNLJVOcFL/view?usp=drive_link)
 
 <img width="1245" height="699" alt="image" src="https://github.com/user-attachments/assets/52317666-425c-42d3-bf9a-ade8fbf5c266" />
 
