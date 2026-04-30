@@ -8,7 +8,7 @@ The proposed model utilizes computer vision techniques to analyze player movemen
 
 ## Model Architecture
 
-The YOLOv11 object detection model used in this project consists of:
+The YOLOv11x object detection model used in this project consists of:
 
 - **Layers:** 357
 - **Parameters:** 56,878,396
