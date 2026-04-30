@@ -1,4 +1,4 @@
-# Football Match Outcome Prediction Using YOLOv11
+# Football Match Outcome Prediction Using YOLOv11x
 
 **Football Analysis** is a data-driven project designed to extract meaningful insights from football match statistics, team performance, and historical match data. This project is ideal for data analysts, football enthusiasts, and developers who want to build analytical dashboards or predictive models for football match outcomes.
 
