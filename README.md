@@ -46,7 +46,7 @@ The model was evaluated on the validation dataset. Below is a summary:
 
 ## Pretrained Model
 
-The pretrained YOLOv11 model can be accessed here:
+The pretrained YOLOv11x model can be accessed here:
 
 [Download Model](https://drive.google.com/file/d/1bZmV9nCr1hLJkHB7BduRZapWNLJVOcFL/view?usp=drive_link)
 
